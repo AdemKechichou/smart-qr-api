@@ -4,7 +4,7 @@ A production-ready REST API for generating customizable QR codes with built-in a
 
 **🔗 Live Demo:** https://smart-qr-api.up.railway.app/
 
-**📚 Interactive API Docs:** https://smart-qr-api.up.railway.app//docs
+**📚 Interactive API Docs:** https://smart-qr-api.up.railway.app/docs
 
 ---
 
