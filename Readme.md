@@ -140,7 +140,7 @@ Returns detailed breakdown of feature usage.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/smart-qr-api.git
+   git clone https://github.com/AdemKechichou/smart-qr-api.git
    cd smart-qr-api
    ```
 
@@ -203,12 +203,12 @@ import requests
 
 # Generate a red QR code with logo
 response = requests.post(
-    "https://your-api-url.com/generate-qr/",
+    "https://smart-qr-api.up.railway.app/generate-qr/",
     json={
-        "text": "https://github.com/yourusername",
+        "text": "https://github.com/AdemKechichou",
         "size": 15,
         "color": {"red": 255, "green": 0, "blue": 0},
-        "logo_url": "https://github.com/yourusername.png"
+        "logo_url": "https://github.com/logo.png"
     }
 )
 
@@ -217,7 +217,7 @@ with open("qr_code.png", "wb") as f:
     f.write(response.content)
 
 # Get analytics
-analytics = requests.get("https://your-api-url.com/analytics/total")
+analytics = requests.get("https://smart-qr-api.up.railway.app/analytics/total")
 print(analytics.json())
 ```
 
@@ -225,13 +225,13 @@ print(analytics.json())
 
 ```bash
 # Generate QR code
-curl -X POST "https://your-api-url.com/generate-qr/" \
+curl -X POST "https://smart-qr-api.up.railway.app/generate-qr/" \
   -H "Content-Type: application/json" \
   -d '{"text": "Hello World"}' \
   --output qr.png
 
 # Get analytics
-curl "https://your-api-url.com/analytics/total"
+curl "https://smart-qr-api.up.railway.app/analytics/total"
 ```
 
 ---
@@ -287,7 +287,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-**Your Name**  
+**Adem Kechichou**  
 GitHub: [@AdemKechichou](https://github.com/AdemKechichou)  
 Email: ademkechichou@gmail.com
 
