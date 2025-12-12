@@ -2,3 +2,6 @@ fastapi
 uvicorn
 qrcode[pil]
 pillow
+requests
+psycopg2-binary
+python-dotenv
